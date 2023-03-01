@@ -1,0 +1,17 @@
+h = (b􀀀a )/n ;
+y = a : h : b ;
+i f n == 3
+i n t a p r o x f = ( (3 h ) / 8 )  ( f e v a l ( f , y(1))+3 f e v a l ( f , y(2))+3 f e v a l ( f , y ( 3 ) )
++f e v a l ( f , y ( 4 ) ) ) ;
+e l s e
+alpha = 0 ;
+betha = 0 ;
+gamma = 0 ;
+f o r i = 1 : n / 3 ;
+alpha = alpha+f e v a l ( f , y ( (3 i ) 􀀀1) ) ;
+end
+f o r i = 1 : n / 3 ;
+betha = betha+f e v a l ( f , y (3 i ) ) ;
+end
+f o r i = 1 : ( n􀀀3)/3;
+gamma = gamma+f e v a l ( f , y ( (3 i )+1) ) ;
